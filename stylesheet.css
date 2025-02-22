@@ -140,3 +140,11 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.pub-image {
+  width: 120px;
+  height: 120px;
+  object-fit: contain; /* Entire image shown, possibly letterboxed */
+  background-color: #fff; /* color behind letterbox */
+  border: 1px solid #ccc; /* optional: visible boundary */
+}
